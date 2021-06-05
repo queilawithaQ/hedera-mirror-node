@@ -27,6 +27,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import com.google.common.primitives.Longs;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.sql.SQLException;
 import java.time.Instant;
 import java.util.Arrays;
 import java.util.List;
@@ -98,7 +99,7 @@ class AccountBalanceFileParserTest extends IntegrationTest {
 
     @Disabled("Fails in CI")
     @Test
-    void duplicateFile() {
+    void duplicateFile() throws SQLException {
         AccountBalanceFile accountBalanceFile1 = accountBalanceFile(1);
         AccountBalanceFile accountBalanceFile2 = accountBalanceFile(1);
 
