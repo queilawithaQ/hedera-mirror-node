@@ -95,7 +95,7 @@ public class Utility {
             }
 
             if (ArrayUtils.isEmpty(protobufKey)) {
-                return "";
+                return ""; // Key.getDefaultInstance() case
             }
 
             Key key = Key.parseFrom(protobufKey);
