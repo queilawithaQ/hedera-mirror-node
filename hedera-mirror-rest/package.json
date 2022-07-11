@@ -30,7 +30,7 @@
     "express-http-context": "^1.2.4",
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
-    "log4js": "^6.3.0",
+    "log4js": "^6.6.0",
     "long": "^4.0.0",
     "mathjs": "^9.4.1",
     "node-fetch": "^2.6.1",
