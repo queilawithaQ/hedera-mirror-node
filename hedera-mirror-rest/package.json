@@ -36,7 +36,7 @@
     "node-fetch": "^2.6.1",
     "pg": "~8.6.0",
     "prom-client": "^13.1.0",
-    "qs": "^6.10.1",
+    "qs": "^6.10.3",
     "swagger-stats": "^0.99.1",
     "swagger-ui-express": "^4.1.6"
   },
